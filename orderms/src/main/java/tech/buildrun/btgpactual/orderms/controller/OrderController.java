@@ -14,6 +14,7 @@ import tech.buildrun.btgpactual.orderms.service.OrderService;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/orders")
 public class OrderController {
 
     private final OrderService orderService;
